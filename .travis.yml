@@ -16,4 +16,4 @@ after_success:
  - coveralls
 notifications:
   webhooks:
-    - https://17cef860.ngrok.io/api/v1/challenge/check_builds/
+    - https://9662315d.ngrok.io/api/v1/challenge/check_builds/
