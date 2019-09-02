@@ -38,13 +38,6 @@ class TestAcceptanceStripe(unittest.TestCase):
         res = re.search(pattern, self.dom_str)
         self.assertTrue(res.group())
 
-    # Check if successUrl redirects to order_success.html
-    def test_acceptance_success_url(self):
-        pattern = re.compile(r"successUrl: \'(http|https)://(.*)/order_success.html\?session_id=\{CHECKOUT_SESSION_ID\}\'", re.I | re.M)
-        res = re.search(pattern, self.dom_str)
-        self.assertTrue(res.group())
-
-
 
 if __name__ == '__main__':
     unittest.main()
