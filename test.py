@@ -44,11 +44,6 @@ class TestAcceptanceStripe(unittest.TestCase):
         res = re.search(pattern, self.dom_str)
         self.assertTrue(res.group())
 
-    # Check if cancelUrl redirects to order.html
-    def test_acceptance_cancel_url(self):
-        pattern = re.compile(r"cancelUrl: \'(http|https)://(.*)/order.html\'", re.I | re.M)
-        res = re.search(pattern, self.dom_str)
-        self.assertTrue(res.group())
 
 
 if __name__ == '__main__':
