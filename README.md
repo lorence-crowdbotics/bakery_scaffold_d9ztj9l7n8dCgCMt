@@ -1,4 +1,5 @@
-[![Status](https://img.shields.io/badge/status-not%20passing%20initial%20tests-red.svg)](https://travis-ci.org/lorence-crowdbotics/bakery_scaffold_d9ztj9l7n8dCgCMt/builds/579604992)
+[![Status](https://img.shields.io/badge/status-not%20passing%20initial%20tests-red.svg)](https://travis-ci.com/lorence-crowdbotics/bakery_scaffold_d9ztj9l7n8dCgCMt/builds/125377919)
+
 
 # Instructions 
 
