@@ -1,3 +1,5 @@
+[![Status](https://img.shields.io/badge/status-not%20passing%20initial%20tests-red.svg)](https://travis-ci.org/lorence-crowdbotics/bakery_scaffold_d9ztj9l7n8dCgCMt/builds/579604992)
+
 # Instructions 
 
 Add the following item to your Dashboard products and complete the provided "order.html" form to include a Client checkout integration. Have the cancel URL return back to order form, and have the success URL direct the customer to order_success.html. 
